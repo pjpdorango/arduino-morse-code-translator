@@ -154,99 +154,52 @@ String convertToEnglish(String morseCode) {
 }
 
 String wordToEnglish(String morseCode) {
-  if (morseCode == ".-") {
-    return "A";
-  } else if (morseCode == "-...") {
-    return "B";
-  } else if (morseCode == "-.-.") {
-    return "C";
-  } else if (morseCode == "-..") {
-    return "D";
-  } else if (morseCode == ".") {
-    return "E";
-  } else if (morseCode == "..-.") {
-    return "F";
-  } else if (morseCode == "--.") {
-    return "G";
-  } else if (morseCode == "....") {
-    return "H";
-  } else if (morseCode == "..") {
-    return "I";
-  } else if (morseCode == ".---") {
-    return "J";
-  } else if (morseCode == "-.-") {
-    return "K";
-  } else if (morseCode == ".-..") {
-    return "L";
-  } else if (morseCode == "--") {
-    return "M";
-  } else if (morseCode == "-.") {
-    return "N";
-  } else if (morseCode == "---") {
-    return "O";
-  } else if (morseCode == ".--.") {
-    return "P";
-  } else if (morseCode == "--.-") {
-    return "Q";
-  } else if (morseCode == ".-.") {
-    return "R";
-  } else if (morseCode == "...") {
-    return "S";
-  } else if (morseCode == "-") {
-    return "T";
-  } else if (morseCode == "..-") {
-    return "U";
-  } else if (morseCode == "...-") {
-    return "V";
-  } else if (morseCode == ".--") {
-    return "W";
-  } else if (morseCode == "-..-") {
-    return "X";
-  } else if (morseCode == "-.--") {
-    return "Y";
-  } else if (morseCode == "--..") {
-    return "Z";
-  } else if (morseCode == ".----") {
-    return "1";
-  } else if (morseCode == "..---") {
-    return "2";
-  } else if (morseCode == "...--") {
-    return "3";
-  } else if (morseCode == "....-") {
-    return "4";
-  } else if (morseCode == ".....") {
-    return "5";
-  } else if (morseCode == "-....") {
-    return "6";
-  } else if (morseCode == "--...") {
-    return "7";
-  } else if (morseCode == "---..") {
-    return "8";
-  } else if (morseCode == "----.") {
-    return "9";
-  } else if (morseCode == "-----") {
-    return "0";
-  } else if (morseCode == "..--..") {
-    return "?";
-  } else if (morseCode == "-.-.--") {
-    return "!";
-  } else if (morseCode == ".-.-.-") {
-    return ".";
-  } else if (morseCode == "--..--") {
-    return ",";
-  } else if (morseCode == ".-.-.") {
-    return "+";
-  } else if (morseCode == "-....-") {
-    return "-";
-  } else if (morseCode == "-..-.") {
-    return "/";
-  } else if (morseCode == "-...-") {
-    return "=";
-  } else if (morseCode == "---...") {
-    return "\01"; // Custom Heart Character
-  } else if (morseCode == "") {
-    return "";
-  }
+  if (morseCode == ".-") { return "A"; } 
+  else if (morseCode == "-...") { return "B"; } 
+  else if (morseCode == "-.-.") { return "C"; } 
+  else if (morseCode == "-..") { return "D"; } 
+  else if (morseCode == ".") { return "E"; } 
+  else if (morseCode == "..-.") { return "F"; } 
+  else if (morseCode == "--.") { return "G"; } 
+  else if (morseCode == "....") { return "H"; } 
+  else if (morseCode == "..") { return "I"; } 
+  else if (morseCode == ".---") { return "J"; } 
+  else if (morseCode == "-.-") { return "K"; } 
+  else if (morseCode == ".-..") { return "L"; } 
+  else if (morseCode == "--") { return "M"; } 
+  else if (morseCode == "-.") { return "N"; } 
+  else if (morseCode == "---") { return "O"; } 
+  else if (morseCode == ".--.") { return "P"; } 
+  else if (morseCode == "--.-") { return "Q"; } 
+  else if (morseCode == ".-.") { return "R"; } 
+  else if (morseCode == "...") { return "S"; } 
+  else if (morseCode == "-") { return "T"; } 
+  else if (morseCode == "..-") { return "U"; } 
+  else if (morseCode == "...-") { return "V"; } 
+  else if (morseCode == ".--") { return "W"; } 
+  else if (morseCode == "-..-") { return "X"; } 
+  else if (morseCode == "-.--") { return "Y"; } 
+  else if (morseCode == "--..") { return "Z"; } 
+  else if (morseCode == ".----") { return "1"; } 
+  else if (morseCode == "..---") { return "2"; } 
+  else if (morseCode == "...--") { return "3"; } 
+  else if (morseCode == "....-") { return "4"; } 
+  else if (morseCode == ".....") { return "5"; } 
+  else if (morseCode == "-....") { return "6"; } 
+  else if (morseCode == "--...") { return "7"; } 
+  else if (morseCode == "---..") { return "8"; } 
+  else if (morseCode == "----.") { return "9"; } 
+  else if (morseCode == "-----") { return "0"; } 
+  else if (morseCode == "..--..") { return "?"; } 
+  else if (morseCode == "-.-.--") { return "!"; } 
+  else if (morseCode == ".-.-.-") { return "."; } 
+  else if (morseCode == "--..--") { return ","; } 
+  else if (morseCode == ".-.-.") { return "+"; } 
+  else if (morseCode == "-....-") { return "-"; } 
+  else if (morseCode == "-..-.") { return "/"; } 
+  else if (morseCode == "-...-") { return "="; } 
+  else if (morseCode == "---...") { return "\01"; } // Custom Heart Character 
+  else if (morseCode == "") { return ""; }
   
   return "?";
   
