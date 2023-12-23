@@ -36,10 +36,6 @@ Use the **Morse Code Button** to input anything you like in morse code.
 
 For the program to recognize that you are finished writing a single letter, wait for at least _1.5 seconds_. After this time frame, the program will interpret the current 'letter' that has not been interpreted yet.
 
-Follow this chart for a translation of Morse Code to English:
-
-![Morse Code to English Chart](https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409)
-
 If you made a mistake, or if the program interpreted a letter when you have not finished writing it fully yet, press the **Backspace Button** to undo the most recent change.
 
 If you are finished writing an entire word, use the **Spacebar Button** to display a whitespace character.
