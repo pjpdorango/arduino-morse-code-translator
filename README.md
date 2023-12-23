@@ -44,6 +44,22 @@ If you made a mistake, or if the program interpreted a letter when you have not 
 
 If you are finished writing an entire word, use the **Spacebar Button** to display a whitespace character.
 
+## Morse Code to English Chart
+![Morse Code to English Chart](https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409)
+
+### Additional Characters
+|**_Character_**|**_Morse Code_**|
+|---------------|---------|
+|**Exclamation Point (!)**|```-.-.--```|
+|**Question Mark (?)**|```..--..```|
+|**Dot (.)**|```.-.-.-```|
+|**Comma (,)**|```--..--```|
+|**Plus (+)**|```.-.-.```|
+|**Minus or Hyphen (-)**|```-....-```|
+|**Slash (/)**|```-..-.```|
+|**Equal Sign (=)**|```-...-```|
+|**Heart**|```---...```|
+
 ## Arduino Port Guide
 
 |**_Component_**|**_Pin_**|
