@@ -1,8 +1,19 @@
 # Arduino Morse Code Translator
 This is Arduino code (.ino) written in C++ that controls a circuit for a morse code translator!
 
-## Components and Uses
-- **An LCD display**
+## Images
+![Circuit Image](https://i.ibb.co/rvR1Qc7/IMG20231222180508.jpg)
+![Arduino Port Wiring Image](https://i.ibb.co/hKT4BWJ/IMG20231223165003.jpg)
+
+## Components Used
+1. Arduino UNO
+2. 3 Small Buttons
+3. 3 1k Ohm Resistors
+4. Jumper Wires (Male and Female)
+5. LCD I2C
+
+## Features
+- **LCD display**
   - Displays the morse code itself
   - Also displays the translated text
 - **Morse code button**
